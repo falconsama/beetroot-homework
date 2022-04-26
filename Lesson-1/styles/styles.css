@@ -33,16 +33,18 @@ table.maintable {
     border-radius: 5px  5px  0  0;
     box-shadow: 5px 10px 0 #e0aaff;
 }
+
 table.maintable td, table.maintable th {
     border: 1px solid #AAAAAA;
-    text-size-adjust: 20;
 }
+
 th.twocol{
     width: 1000px;
 }
 
 table.maintable tbody td {
-    font-size: 13px;
+    font-size: 16px;
+    color:#3c096c;
 }
 
 .name{
@@ -55,6 +57,9 @@ table.maintable tbody td {
     font-size: 20px;
     font-weight: bold;
 }
+li {
+    list-style: upper-latin;
+}
 .listitem1{
     color: #3c096c;
     font-size: 10;
@@ -62,10 +67,9 @@ table.maintable tbody td {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.listitem2 {
+.li.listitem2 {
     color: #5a189a;
-    font-size: 10;
-    list-style: lower-greek;
+    list-style:decimal;
 }
 
 .name2 {
@@ -95,4 +99,9 @@ a:link {
 }
 a:visited {
     color: #e0aaff;
+}
+
+.lang {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #5a189a;
 }
