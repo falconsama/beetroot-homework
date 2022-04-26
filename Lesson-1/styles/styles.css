@@ -1,0 +1,98 @@
+.list {
+    list-style: none;
+}
+
+
+.back{
+    background-image: url(../assets/pictures/background.jpg);
+    background-size: cover;
+}
+.maininfo {
+    text-align: center;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #10002b;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #240046;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #3c096c;
+}
+
+table.maintable {
+    border: 2px solid #e0aaff;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px  5px  0  0;
+    box-shadow: 5px 10px 0 #e0aaff;
+}
+table.maintable td, table.maintable th {
+    border: 1px solid #AAAAAA;
+    text-size-adjust: 20;
+}
+th.twocol{
+    width: 1000px;
+}
+
+table.maintable tbody td {
+    font-size: 13px;
+}
+
+.name{
+    font-size: 20px;
+    color: #10002b;
+}
+
+.name3 {
+    color: #10002b;
+    font-size: 20px;
+    font-weight: bold;
+}
+.listitem1{
+    color: #3c096c;
+    font-size: 10;
+    list-style: georgian;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.listitem2 {
+    color: #5a189a;
+    font-size: 10;
+    list-style: lower-greek;
+}
+
+.name2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3c096c;
+    margin: 0;
+}
+
+.imptext {
+    color: #37215c;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #5a189a;
+    cursor: cell;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:link {
+    color: #240046;
+}
+a:visited {
+    color: #e0aaff;
+}
