@@ -57,9 +57,10 @@ header {
     top:0;
     width: 20px;
     height: 20px;
-    background-image: url(/assets/img/images/check-mark-icon-vector-26.png);
-    background-size: contain;
+    background-image: url(../assets/img/images/icon.png.png);
+    background-size:contain;
 }
+
 .checkboxdiv {
     margin-top: 20px;
     margin-right: 230px;
