@@ -1,0 +1,157 @@
+@font-face {
+    font-family: Trebuchet, Arial, sans-serif;
+    src: url("../assets/fonts/TrebuchetMS.ttf") format("truetype"); 
+    font-style: Arial; 
+    font-weight: normal; 
+} 
+body {
+    margin: 0;
+    padding: 0;
+    background: #3B3F45;
+}
+* {
+    text-align: center;
+    transition: all .1s ease-in;
+ }
+
+header {
+    background-color: #4A4F56;
+    color: #FF8984;
+}
+[type="checkbox"]{
+    opacity: 0;
+}
+[type="checkbox"]+span{
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  display: inline-block;
+ line-height: 25px;
+}
+
+[type="checkbox"]+span::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 20px;
+    height: 20px;
+    outline: 2px solid #666;
+    background: white;
+}
+
+[type="checkbox"]:checked +span::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 20px;
+    height: 20px;
+    outline: 2px solid rgb(29, 18, 18);
+    background: white;
+}
+[type="checkbox"]:checked +span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 20px;
+    height: 20px;
+    background-image: url(/assets/img/images/check-mark-icon-vector-26.png);
+    background-size: contain;
+}
+.checkboxdiv {
+    margin-top: 20px;
+    margin-right: 230px;
+    margin-bottom: 45px;
+    margin-left: 390px;
+}
+.h1 {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.h2{
+    font-weight: 400;
+    font-size: 24px;
+}
+.link:visited{
+    color:blue;
+}
+
+link:focus{
+    color:yellowgreen;
+    outline: 0;
+    background-color: black;
+}
+
+link:first-of-type{
+    color:red;
+}
+
+span.big{
+    font-size: 20px;
+}
+
+span.small{
+    font-size: 10px;
+    vertical-align:super;
+}
+
+.checkbox-label {
+    display: block;
+    padding: 2px;
+    width: 534px;
+    height: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    color: #FFFF;
+    text-align: left;
+}
+
+
+label.checkbox-label:hover{
+    background-color: #625E77;
+
+}
+label.checkbox-label:active{
+    background-color: #FF8984;
+
+}
+
+.checkbox-label:nth-child(odd){
+    background-color:#88839E;
+}
+
+.checkbox-label:nth-child(even){
+    background-color: #7A7593;
+}
+
+.checkbox-field:checked~span{
+    text-decoration: line-through;
+    background-color: #7A7593;
+    color: #9B96AC;
+
+}
+
+.strikethrough:checked~span{
+    text-decoration:line-through;
+    background-color: #7A7593;
+    color: #9B96AC;
+}
+
+.appetit {
+    margin-top: 45px;
+    margin-right: 230px;
+    margin-left: 390px;
+    width: 534px;
+    height: 45px;
+    background-color: #4A4F56;
+}
+
+h3 {
+    padding: 5px;
+    color: #FF8984;
+}
+
+
